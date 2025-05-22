@@ -28,7 +28,7 @@ def detect_type(value):
     return "string"
 
 
-inputs = ["5", "3.14", "a", "hello", "world!","True","False", "42.0", "007"]
+inputs = ["5", "3.14", "a", "hello", "world!","True","False", "42.0"," ", "007"]
 
 for inp in inputs:
     print(f"{inp!r} → {detect_type(inp)}")

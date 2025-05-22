@@ -1,0 +1,32 @@
+تابع detect_type(value):
+
+ابتدا فاصله‌های اضافی ابتدای و انتهای ورودی را حذف می‌کند.
+
+به ترتیب بررسی می‌کند که ورودی:
+
+bool (مقدار true یا false)
+
+int (عدد صحیح)
+
+float (عدد اعشاری)
+
+char (فقط یک کاراکتر)
+
+در غیر این صورت، string (رشته) است.
+
+حلقه اصلی برنامه (while True):
+
+از کاربر ورودی می‌گیرد.
+
+اگر کاربر "exit" یا "خروج" وارد کند، برنامه متوقف می‌شود.
+
+در غیر این صورت، نوع داده را با استفاده از تابع detect_type مشخص کرده و چاپ می‌کند.
+
+
+
+
+Insert a value: 123       ....  type value: int  
+Insert a value: 12.5      ....  type value: float  
+Insert a value: true      ....  type value: bool  
+Insert a value: a         ....  type value: char  
+Insert a value: hello     ....  type value: string  
